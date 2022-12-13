@@ -1,0 +1,44 @@
+{
+  "name": "eslint-plugin-closure",
+  "version": "0.0.2",
+  "author": "Joe Schafer <jschaf@google.com>",
+  "license": "Apache-2.0",
+  "description": "An ESLint plugin for Google style guide rules.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/google/eslint-closure"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "google",
+    "lint",
+    "linter"
+  ],
+  "files": [
+    "lib/*.js",
+    "dist/*.js",
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "bugs": {
+    "url": "https://github.com/google/eslint-closure"
+  },
+  "homepage": "https://github.com/google/eslint-closure",
+  "devDependencies": {
+    "chai": "~3.5.0",
+    "mocha": "~3.2.0"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">= 4"
+  },
+  "scripts": {},
+  "dependencies": {
+    "doctrine": "^2.0.0",
+    "eslint": "~3.9.0",
+    "lodash.ismatchwith": "~4.4.0"
+  }
+}

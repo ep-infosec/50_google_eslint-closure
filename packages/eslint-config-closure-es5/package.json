@@ -1,0 +1,42 @@
+{
+  "name": "eslint-config-closure-es5",
+  "version": "0.0.1",
+  "author": "Joe Schafer <jschaf@google.com>",
+  "license": "Apache-2.0",
+  "description": "ESLint config for Closure code following the Google styleguide.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/google/eslint-closure"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "google",
+    "javascript",
+    "styleguide",
+    "lint",
+    "linter"
+  ],
+  "bugs": {
+    "url": "https://github.com/google/eslint-closure"
+  },
+  "homepage": "https://github.com/google/eslint-closure",
+  "dependencies": {
+    "eslint-config-closure-base": "^0.0.1",
+    "eslint-plugin-closure": "^0.0.1"
+  },
+  "devDependencies": {
+    "eslint-config-tester": "^0.0.1",
+    "mocha": "^3.2.0"
+  },
+  "peerDependencies": {
+  },
+  "engines": {
+    "node": ">= 4"
+  },
+  "scripts": {
+    "test": "node test-config.js"
+  }
+}

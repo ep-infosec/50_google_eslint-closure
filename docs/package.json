@@ -1,0 +1,47 @@
+{
+  "name": "eslint-closure-docs",
+  "version": "0.0.1",
+  "author": "Joe Schafer <jschaf@google.com>",
+  "license": "Apache-2.0",
+  "description": "A demo site for the ESLint plugin and config for Closure.",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack",
+    "jekyll": "jekyll build -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/google/eslint-closure"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "google",
+    "lint",
+    "linter"
+  ],
+  "files": [
+    "lib/*.js",
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "bugs": {
+    "url": "https://github.com/google/eslint-closure/issues"
+  },
+  "homepage": "https://github.com/google/eslint-closure",
+  "devDependencies": {
+    "html-webpack-plugin": "^2.28.0",
+    "eslint": "~3.9.0",
+    "json-loader": "^0.5.4",
+    "raw-loader": "^0.5.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">= 4"
+  },
+  "dependencies": {
+  }
+}
